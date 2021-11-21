@@ -336,12 +336,15 @@ void doubleNumberOfCoins(void* a)
 int controller_printArcades(char* path , LinkedList* pArrayArcades)
 {
 	int status = -1;
+	LinkedList* aux;
 
 	if (path != NULL && pArrayArcades != NULL)
 	{
-		if (ll_sort(pArrayArcades, sortByName, 0) == 0)
+		aux = ll_clone(pArrayArcades);
+
+		if (ll_sort(aux, sortByName, 0) == 0)
 		{
-			arcade_printList(pArrayArcades);
+			arcade_printList(aux);
 			status = 1;
 		}
 	}

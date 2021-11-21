@@ -25,22 +25,12 @@ int main(void)
 
 	do
 	{
-		//ll_clear(arcadesList);
-		//controller_clearList(arcadesList);
-		//controller_loadFromText("./src/arcades.csv", arcadesList);
-		//upload = 1;
 		menu_printMainMenu();
 		if (menu_selectAnOption(&selectedOption, 1, 9) == 1)
 		{
 			switch(selectedOption)
 			{
 				case 1:
-					/*if (controller_getArcadesFromText("./src/arcades.csv", arcadesList) != 1)
-					{
-						printf("\nErrorrrr");
-					}
-					else
-						upload = 1;*/
 					printf("\nCargado correctamente");
 					break;
 				case 2:
@@ -49,13 +39,9 @@ int main(void)
 						printf("\nOcurrio un error");
 					}
 					else
-					{
 						maximumId++;
-						//controller_clearList(arcadesList);
-					}
 					break;
 				case 3:
-					//controller_getArcadesFromText("./src/arcades.csv", arcadesList);
 					if (upload != 1)
 					{
 						controller_getArcadesFromText("./src/arcades.csv", arcadesList);
@@ -67,7 +53,6 @@ int main(void)
 					}
 					break;
 				case 4:
-					//controller_getArcadesFromText("./src/arcades.csv", arcadesList);
 					if (upload != 1)
 					{
 						controller_getArcadesFromText("./src/arcades.csv", arcadesList);
@@ -79,7 +64,6 @@ int main(void)
 					}
 					break;
 				case 5:
-					//controller_getArcadesFromText("./src/arcades.csv", arcadesList);
 					if (upload != 1)
 					{
 						controller_getArcadesFromText("./src/arcades.csv", arcadesList);
@@ -91,7 +75,6 @@ int main(void)
 					}
 					break;
 				case 6:
-					//controller_getArcadesFromText("./src/arcades.csv", arcadesList);
 					if (upload != 1)
 					{
 						controller_getArcadesFromText("./src/arcades.csv", arcadesList);
@@ -103,7 +86,6 @@ int main(void)
 					}
 					break;
 				case 7:
-					//controller_getArcadesFromText("./src/arcades.csv", arcadesList);
 					if (upload != 1)
 					{
 						controller_getArcadesFromText("./src/arcades.csv", arcadesList);
@@ -115,7 +97,6 @@ int main(void)
 					}
 					break;
 				case 8:
-					//controller_getArcadesFromText("./src/arcades.csv", arcadesList);
 					if (upload != 1)
 					{
 						controller_getArcadesFromText("./src/arcades.csv", arcadesList);

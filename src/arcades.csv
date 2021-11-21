@@ -1,5 +1,4 @@
 id,nacionalidad,tipo_sonido,cant_jug,fichas_max,salon,game
-525,def,MONO,4,4,def,Galalal
 1,China,STEREO,1,730,Salon 2021,Metal Slug
 2,China,STEREO,1,560,Salon 2,Mortal Kombat
 3,Philippines,STEREO,5,828,Salon Carreras,Bubble Bobble
@@ -500,8 +499,4 @@ id,nacionalidad,tipo_sonido,cant_jug,fichas_max,salon,game
 498,Mozambique,MONO,4,718,Salon 2021,Galaga
 499,South Africa,STEREO,1,966,Salon 5,Bubble Bobble
 500,Morocco,MONO,4,654,Salon VR,Double Dragon
-525,def,MONO,2,4,def,def
-526,asdas,MONO,2,4,2,2
-527,sads,MONO,2,4,asdasd,asdas
-530,donomar,MONO,4,4,donomar,elcaserio
-531,paisazo,MONO,2,2,salonazo,juegazo
+502,Nuevo,MONO,4,2,nuevo,nuevo
